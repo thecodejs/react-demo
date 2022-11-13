@@ -1,0 +1,9 @@
+.main-container {
+  padding: 16px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.footer {
+  padding: 16px;
+}
