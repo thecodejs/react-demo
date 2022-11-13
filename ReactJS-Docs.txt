@@ -1,0 +1,131 @@
+Version
+Major.Minor.Patch
+
+Major: Breaking change
+Minor: New feature introduce
+Patch: Bug fixes
+
+16.14.0
+
+17.0.0
+17.0.1
+17.0.2
+
+* JSX
+* State
+* Props - Transfer data from one component to another
+    - All attributes are called props
+* Lifecycle
+* ContextApi
+* Route
+    Documentation
+    - v5: https://v5.reactrouter.com/web/guides/quick-start
+* Route layout
+- Route with authentication
+* TailwindCSS
+    - https://tailwindcss.com/
+    - https://tailwindcss.com/docs/installation/using-postcss
+    - Tailwind CSS IntelliSense
+* AgGrid
+* git
+
+## Lifecycle
+
+Component
+Lifecycle
+
+Mount
+Render
+Update - To update a react component, two things are responsible i.e. State and Props
+Unmount
+
+- useEffect: 
+    Mound - componentDidMount
+    Update - componentDidUpdate
+    Unmount - componentWillUnmount
+
+    useEffect(callback, [dependencies])
+        - callback: 
+        - dependencies: will call if any of the dependencies changes
+
+State: We use state in the following scenario:- 
+    1. If we need to create a variable. 
+    2. If we are using that variable in React Render HTML. 
+    3. If we want to re-render/update component if that variable changes.
+
+State is immutable
+
+const [] = useState()
+const [variableName, setVariableName] = useState(defaultValue)
+
+
+--------------------
+
+Admin Panel
+====================
+
+Node API service -> MongoDB -> Manual entry for 1 user (username, password)
+
+Login Page -> Username, Password, Login Button
+
+Dashboard Page
+    -> Left Navigation
+        -> Home -> Welcome Username,
+        -> Users -> User list
+        -> Products
+        -> Logout
+
+-------
+- we use npx to install and use CLI packages
+
+npx tailwindcss init
+
+npm tailwindcss
+tailwindcss init
+npm rm tailwindcss
+-------
+
+https://github.com/
+https://github.com/thecodejs/react-demo
+
+.git        - utility
+GitHub      - git repository manager
+BitBucket   - git repository manager
+Atlassian   - git repository manager
+
+.git
+    - Repository (Repo) -> Project Folder
+    - Branch            -> Version wise folder
+    - Feature Branch    -> Branch for changes
+    - Version           -> Kind of backup or checkpoint for the changes
+    - Pull Request (PR) -> Ask other developers to review your code before merging.
+    - Code Review       -> Other developers can review and approve the code.
+    - Merge             -> Once PR is approved, feature branch can be merge into the main branch.
+    - Conflict          -> When there are changes in 1. same file, 2. same line, 3. by multiple developers
+        -> Accept Incoming  -> Keep main branch code (my code will be rejected)
+        -> Accept Current   -> Keep my Current code (main branch code will be rejected)
+        -> Accept Both      -> Keep both changes (both code will be added)
+
+.git interface
+    - CLI (Command line interface)
+    - GUI (Graphical user interface)
+
+.git commands
+    - git clone <repo_url> [<folder_name>]
+    - git status
+    - git remote -v
+    - git remote remove origin 
+
+.git init on existing Project
+    - git init
+    - git remote add origin <repo_url>
+    - git fetch
+    - git checkout <branch_name>
+
+create new branch
+    - git checkout -b <new_branch_name>
+
+push the local changes to remote
+    - git add .
+    - git commit -m "message here"
+    - git push origin <branch_name>
