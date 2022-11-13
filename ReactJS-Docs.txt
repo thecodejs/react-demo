@@ -122,10 +122,17 @@ Atlassian   - git repository manager
     - git fetch
     - git checkout <branch_name>
 
-create new branch
+Do a new change - create new branch
     - git checkout -b <new_branch_name>
 
 push the local changes to remote
     - git add .
     - git commit -m "message here"
     - git push origin <branch_name>
+
+after merge
+    - git checkout <main_branch_name>
+    - git pull
+
+
+    
