@@ -130,6 +130,9 @@ push the local changes to remote
     - git commit -m "message here"
     - git push origin <branch_name>
 
+Create Pull Request
+Merge changes
+
 after merge
     - git checkout <main_branch_name>
     - git pull
