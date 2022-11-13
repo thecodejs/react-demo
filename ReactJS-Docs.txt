@@ -122,7 +122,8 @@ Atlassian   - git repository manager
     - git fetch
     - git checkout <branch_name>
 
-Do a new change - create new branch
+Repeat this everytime you do a new change
+- create new branch
     - git checkout -b <new_branch_name>
 
 push the local changes to remote
